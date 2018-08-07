@@ -4,7 +4,9 @@
 
 
 ## Legacy Talent Calculator
-Legacy WoW Talent Calculator Android App  
+Legacy WoW Talent Calculator Android App 
+
+(code is horrible, 3 weeks active development, feel free to clean up / fix stuff :))
   
 ## Credits:  
   
