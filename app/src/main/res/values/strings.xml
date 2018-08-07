@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LTC</string>
+    <string name="app_name_full">Legacy Talent Calculator</string>
+    <string name="vanillaClasses">Vanilla Classes</string>
+    <string name="tbcClasses">TBC Classes</string>
+    <string name="wotlkClasses">WotLK Classes</string>
+
+    <string name="adMobAppId">ca-app-pub-2910994499798273~5238484046</string>
+    <string name="adUnitId">ca-app-pub-2910994499798273/9667212437</string>
+
+    <string name="requiredLevel">Required Level: </string>
+    <string name="remainingPoints">Remaining Points: </string>
+    <string name="numberValue">%1$d</string>
+    <string name="currentRank">Rank: %1$d / %2$d</string>
+
+</resources>

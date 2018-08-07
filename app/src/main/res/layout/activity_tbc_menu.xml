@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tbcMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arms"
+    tools:context=".activities.ClassMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/morpheus"
+        android:text="@string/tbcClasses"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/classDruid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/classHunter"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/class_druid"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classHunter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/classMage"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/classDruid"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/class_hunter"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classMage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/classHunter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/class_mage"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classPaladin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/classPriest"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classDruid"
+        app:srcCompat="@drawable/class_paladin"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classPriest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/classRogue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/classPaladin"
+        app:layout_constraintTop_toBottomOf="@+id/classHunter"
+        app:srcCompat="@drawable/class_priest"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classRogue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/classPriest"
+        app:layout_constraintTop_toBottomOf="@+id/classMage"
+        app:srcCompat="@drawable/class_rogue"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classShaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/classWarlock"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classPaladin"
+        app:srcCompat="@drawable/class_shaman"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classWarlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/classWarrior"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/classShaman"
+        app:layout_constraintTop_toBottomOf="@+id/classPriest"
+        app:srcCompat="@drawable/class_warlock"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/classWarrior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/classWarlock"
+        app:layout_constraintTop_toBottomOf="@+id/classRogue"
+        app:srcCompat="@drawable/class_warrior"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/adUnitId"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/loadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classWarlock"
+        app:srcCompat="@drawable/load"
+        tools:ignore="ContentDescription" />
+
+</android.support.constraint.ConstraintLayout>

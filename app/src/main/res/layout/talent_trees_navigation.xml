@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tree1Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/morpheus"
+        android:text="Tree1Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tree1Bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/tree1"
+        app:layout_constraintTop_toTopOf="@+id/tree1"
+        app:srcCompat="@drawable/bubble_tree"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tree1Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="0"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="@+id/tree1Bubble"
+        app:layout_constraintStart_toStartOf="@+id/tree1Bubble"
+        app:layout_constraintTop_toTopOf="@+id/tree1Bubble"
+        tools:ignore="SmallSp" />
+
+    <ImageButton
+        android:id="@+id/tree1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree1Name"
+        app:srcCompat="@drawable/balance_icon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tree2Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/morpheus"
+        android:text="Tree2Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree1Bubble" />
+
+    <ImageView
+        android:id="@+id/tree2Bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/tree2"
+        app:layout_constraintTop_toTopOf="@+id/tree2"
+        app:srcCompat="@drawable/bubble_tree"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tree2Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="@+id/tree2Bubble"
+        app:layout_constraintStart_toStartOf="@+id/tree2Bubble"
+        app:layout_constraintTop_toTopOf="@+id/tree2Bubble"
+        tools:ignore="SmallSp" />
+
+    <ImageButton
+        android:id="@+id/tree2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree2Name"
+        app:srcCompat="@drawable/balance_icon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tree3Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/morpheus"
+        android:text="Tree3Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree2Bubble" />
+
+    <ImageView
+        android:id="@+id/tree3Bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/tree3"
+        app:layout_constraintTop_toTopOf="@+id/tree3"
+        app:srcCompat="@drawable/bubble_tree"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tree3Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="@+id/tree3Bubble"
+        app:layout_constraintStart_toStartOf="@+id/tree3Bubble"
+        app:layout_constraintTop_toTopOf="@+id/tree3Bubble"
+        tools:ignore="SmallSp" />
+
+    <ImageButton
+        android:id="@+id/tree3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree3Name"
+        app:srcCompat="@drawable/balance_icon"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/resetAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tree3Bubble"
+        app:srcCompat="@drawable/resetbutton"
+        tools:ignore="ContentDescription" />
+
+</android.support.constraint.ConstraintLayout>
+

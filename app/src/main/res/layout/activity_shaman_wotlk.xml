@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/treeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/balance"
+                tools:context=".activities.TalentTreeActivity">
+
+                <!-- Level 10 -->
+
+                <include
+                    android:id="@+id/lvl111"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl112"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl101"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl112"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl113"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl111"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl102"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl113"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl114"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl112"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl103"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl114"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl113"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl104"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 10 -->
+
+                <include
+                    android:id="@+id/lvl101"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl102"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl91"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl102"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl103"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl101"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl92"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl103"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl104"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl102"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl93"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl104"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl103"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl94"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 9 -->
+
+                <include
+                    android:id="@+id/lvl91"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl92"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl81"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26234"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl92"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl93"
+                    app:layout_constraintStart_toStartOf="@+id/lvl92"
+                    app:layout_constraintTop_toTopOf="@+id/lvl92"
+                    app:srcCompat="@drawable/arrowrightshort" />
+
+                <include
+                    android:id="@+id/lvl92"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl93"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl91"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl82"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl93"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl94"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl92"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl83"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl94"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl93"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl84"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 8 -->
+
+                <include
+                    android:id="@+id/lvl81"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl82"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl71"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl82"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl83"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl81"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl72"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl83"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl84"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl82"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl73"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl84"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl83"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl74"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 7 -->
+
+                <include
+                    android:id="@+id/lvl71"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl72"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl61"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26029"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl82"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl72"
+                    app:layout_constraintStart_toStartOf="@+id/lvl72"
+                    app:layout_constraintTop_toTopOf="@+id/lvl72"
+                    app:srcCompat="@drawable/arrowshort" />
+
+                <ImageView
+                    android:id="@+id/arrow26124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl71"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl72"
+                    app:layout_constraintStart_toStartOf="@+id/lvl71"
+                    app:layout_constraintTop_toTopOf="@+id/lvl71"
+                    app:srcCompat="@drawable/arrowleftshort" />
+
+                <ImageView
+                    android:id="@+id/arrow26129"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl82"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl72"
+                    app:layout_constraintStart_toStartOf="@+id/lvl72"
+                    app:layout_constraintTop_toTopOf="@+id/lvl72"
+                    app:srcCompat="@drawable/arrowshort" />
+
+                <include
+                    android:id="@+id/lvl72"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl73"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl71"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl62"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26130"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl83"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl73"
+                    app:layout_constraintStart_toStartOf="@+id/lvl73"
+                    app:layout_constraintTop_toTopOf="@+id/lvl73"
+                    app:srcCompat="@drawable/arrowshort" />
+
+                <include
+                    android:id="@+id/lvl73"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl74"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl72"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl63"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl74"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl73"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl64"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 6 -->
+
+                <include
+                    android:id="@+id/lvl61"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl62"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl51"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl62"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl63"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl61"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl52"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26226"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl73"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl63"
+                    app:layout_constraintStart_toStartOf="@+id/lvl63"
+                    app:layout_constraintTop_toTopOf="@+id/lvl63"
+                    app:srcCompat="@drawable/arrowshort" />
+
+                <include
+                    android:id="@+id/lvl63"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl64"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl62"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl53"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl64"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl63"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl54"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 5 -->
+                <include
+                    android:id="@+id/lvl51"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl52"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl41"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26025"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl72"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl62"
+                    app:layout_constraintStart_toStartOf="@+id/lvl62"
+                    app:layout_constraintTop_toTopOf="@+id/lvl52"
+                    app:srcCompat="@drawable/arrowmedium" />
+
+                <ImageView
+                    android:id="@+id/arrow26125"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl72"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl62"
+                    app:layout_constraintStart_toStartOf="@+id/lvl62"
+                    app:layout_constraintTop_toTopOf="@+id/lvl52"
+                    app:srcCompat="@drawable/arrowmedium" />
+
+                <include
+                    android:id="@+id/lvl52"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl53"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl51"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl42"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl53"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl54"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl52"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl43"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl54"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl53"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl44"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 4 -->
+                <include
+                    android:id="@+id/lvl41"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl42"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl31"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26225"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl72"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl52"
+                    app:layout_constraintStart_toStartOf="@+id/lvl52"
+                    app:layout_constraintTop_toTopOf="@+id/lvl42"
+                    app:srcCompat="@drawable/arrowlong" />
+
+                <include
+                    android:id="@+id/lvl42"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl43"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl41"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl32"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl43"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl44"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl42"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl33"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl44"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl43"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl34"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 3 -->
+
+                <include
+                    android:id="@+id/lvl31"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl32"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl21"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl52"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl42"
+                    app:layout_constraintStart_toStartOf="@+id/lvl42"
+                    app:layout_constraintTop_toTopOf="@+id/lvl32"
+                    app:srcCompat="@drawable/arrowmedium" />
+
+                <include
+                    android:id="@+id/lvl32"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl33"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl31"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl22"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26022"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl63"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl43"
+                    app:layout_constraintStart_toStartOf="@+id/lvl43"
+                    app:layout_constraintTop_toTopOf="@+id/lvl33"
+                    app:srcCompat="@drawable/arrowlong" />
+
+                <include
+                    android:id="@+id/lvl33"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl34"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl32"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl23"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl34"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl33"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl24"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 2 -->
+
+                <include
+                    android:id="@+id/lvl21"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl22"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl11"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/arrow26113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl42"
+                    app:layout_constraintEnd_toEndOf="@+id/lvl32"
+                    app:layout_constraintStart_toStartOf="@+id/lvl32"
+                    app:layout_constraintTop_toTopOf="@+id/lvl22"
+                    app:srcCompat="@drawable/arrowmedium" />
+
+                <include
+                    android:id="@+id/lvl22"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl23"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl21"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl12"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl23"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl24"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl22"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl13"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl24"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/lvl23"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl14"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Level 1 -->
+
+                <include
+                    android:id="@+id/lvl11"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="48dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl12"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl12"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="48dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl13"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl11"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl13"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="48dp"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl14"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl12"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/lvl14"
+                    layout="@layout/talent_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="180dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="48dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/lvl13"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <include
+                    android:id="@+id/treeInfo"
+                    layout="@layout/talent_tree_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <include
+                    android:id="@+id/treesNavigation"
+                    layout="@layout/talent_trees_navigation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/lvl111"
+                    app:layout_constraintEnd_toStartOf="@+id/lvl31"
+                    app:layout_constraintHorizontal_bias="0.454"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/lvl11" />
+
+                <include
+                    android:id="@+id/treeOptions"
+                    layout="@layout/talent_tree_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/adView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lvl112" />
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:adSize="SMART_BANNER"
+                    app:adUnitId="@string/adUnitId"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
