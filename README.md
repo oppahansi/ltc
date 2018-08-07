@@ -11,7 +11,7 @@ Legacy WoW Talent Calculator Android App
 ### WoW Expansion Icons  
 https://www.deviantart.com/iindigo
 ### Raw data sources
-https://github.com/oppahansi/vanillatalentcalculator
+https://github.com/oppahansi/vanillatalentcalculator  
 https://github.com/Vampyr7878/WoW-Talent-Calculator-Classic  
 https://github.com/Vampyr7878/WoW-Talent-Caluclator-TBC  
 https://github.com/Vampyr7878/WoW-Talent-Calculator-WOTLK  
